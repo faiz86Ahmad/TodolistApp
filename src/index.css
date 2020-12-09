@@ -110,7 +110,7 @@ ol li{
 
  @media( min-width:300px) and (max-width:500px){
    .center_div{
-     width:75%;
+     width:76%;
      height:70vh;
    }
    .todo_style .deleteicon{
