@@ -108,11 +108,12 @@ ol li{
    background-color: crimson;
  }
 
- @media(max-width:768px){
+ @media( min-width:300px) and (max-width:500px){
    .center_div{
-     width:55%;
+     width:75%;
+     height:70vh;
    }
-   .todo_style .fa-times{
+   .todo_style .deleteicon{
      margin:0 15px 0 15px;
      display:flex;
      justify-content: center;
@@ -120,9 +121,19 @@ ol li{
    }
    Button{
      margin-left:5px;
-     min-height: 40px;
-     width:40px;
+     min-height: 30px;
+     width:30px;
      color:#fff;
+     font-size:25px;
+   }
+   h1{
      font-size:30px;
+   }
+ }
+ @media (min-width:500px) and (max-width:950px)
+ {
+   .center_div{
+   width:55%;
+   height:70vh;
    }
  }
